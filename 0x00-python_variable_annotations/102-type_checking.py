@@ -8,7 +8,7 @@ Function returns a list
 """
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Takes two positional arguments
     """
