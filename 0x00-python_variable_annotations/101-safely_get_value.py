@@ -7,11 +7,13 @@ from typing import TypeVar, Mapping, Any, Union
 T = TypeVar('T')
 
 """
-Function 
+Function
 """
 
 
-def safely_get_value(dct: Mapping, key: Any, default: Union[T, None] = None) -> Union[Any, T]:
+def safely_get_value(
+        dct: Mapping, key: Any, default: Union[T, None] = None
+        ) -> Union[Any, T]:
     """
     Function that takes three argument
     """
